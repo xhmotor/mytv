@@ -1,9 +1,6 @@
 source_file = "user_demo.txt"
 final_file = "user_result.txt"
 favorite_list = [
-    "广东珠江",
-    "开平综合",
-    "开平生活",
     "CCTV-1",
     "CCTV-5",
     "CCTV-5+",
@@ -17,10 +14,10 @@ favorite_list = [
 ]
 favorite_page_num = 6
 default_page_num = 4
-urls_limit = 15
+urls_limit = 5
 response_time_weight = 0.5
 resolution_weight = 0.5
-recent_days = 30
-ipv_type = "ipv4"
+recent_days = 15
+ipv_type = "ipv6"
 domain_blacklist = ["epg.pw"]
 url_keywords_blacklist = []
